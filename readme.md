@@ -2,7 +2,7 @@
 
 Alunos:
 
-- Caio Renan - Tech Lead
+- Caio Mendonca - Tech Lead
 - Daniel Piva - Desenvolvedor
 - Mateus Prado - Desenvolvedor
 - Vitor Vital - Desenvolvedor
