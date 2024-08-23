@@ -1,0 +1,26 @@
+/* Reseta algumas propriedades padrão do navegador */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Define o estilo básico para o corpo da página */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+}
+
+/* Estiliza o elemento main */
+main {
+    background-color: #fff; /* Cor de fundo branca para o formulário */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* Largura máxima para o formulário */
+    
+}
