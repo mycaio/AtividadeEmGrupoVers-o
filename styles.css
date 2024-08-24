@@ -24,3 +24,21 @@ main {
     max-width: 600px; /* Largura máxima para o formulário */
     
 }
+
+label {
+    color: rgb(100, 100, 100);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+input {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    padding: 10px;
+}
+    
+input[type="email"]:focus {
+    border-color: rgb(58, 58, 228);
+    border-width: 1.5px;
+    outline: none;
+}
