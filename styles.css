@@ -48,3 +48,42 @@ input:focus {
 
 }
 
+.space {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px 0px;  /* Margem ajustada para centralizar o input */
+    width: 200px; 
+    padding-left: 20px; 
+    border-radius: 6px;
+    height: 35px;
+    border: 2px solid #cacaca; 
+    transition: border-color 0.3s; 
+}
+
+.space:focus {
+    border-color: #9090de; /* Cor azul claro ao clicar */
+    outline: none; 
+}
+
+.font {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(91, 91, 91);
+    display: flex;
+    flex-direction: column; /* Alinha o label e o input verticalmente */
+    align-items: flex-start; /* Mantém o alinhamento à esquerda */
+    width: 200px;  /* Mantém a largura da div igual à do input */
+}
+
+.font label {
+    margin-bottom: -3px; /* Coloca o label colado no input */
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-start; /* Alinha o formulário à esquerda */
+    padding: 20px;
+}
+
+
