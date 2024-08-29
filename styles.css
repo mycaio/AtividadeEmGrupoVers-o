@@ -20,9 +20,8 @@ main {
     border-radius: 8px; /* Cantos arredondados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px;
-    width: 100%;
-    max-width: 600px; /* Largura máxima para o formulário */
     margin: 50px;
+    border: 1px solid black;
 }
 
 /* Estilo dos rótulos */
@@ -33,7 +32,7 @@ label {
 
 /* Estilo dos campos de entrada */
 .input-field {
-    width: 60%;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -60,3 +59,9 @@ label {
     border-width: 1.5px;
     outline: none;
 }
+
+.flexbox-data_cvv{
+    display: flex;
+    justify-content: space-between;
+}
+

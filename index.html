@@ -16,11 +16,17 @@
         </div>
         <div>
             <label>Número do Cartão de Crédito</label> <br>
-            <input type="text" class="input-field" placeholder="XXXX XXXX XXXX XXXX">
+            <input type="text" class="input-field" placeholder="XXXX XXXX XXXX XXXX" maxlength="16">
         </div>
-        <div>
-            <label>Data de Expiração</label> <br>
-            <input type="date" class="input-date">
+        <div class="flexbox-data_cvv">
+            <div>
+                <label>Data de Expiração</label> <br>
+                <input type="date" class="input-field">
+            </div>
+            <div>
+                <label>CVV</label> <br>
+                <input class="input-field" placeholder="XXX" type="text" pattern="\d*" maxlength="3">
+            </div>
         </div>
     </main>
 </body>
