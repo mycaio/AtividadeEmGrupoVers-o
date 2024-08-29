@@ -23,28 +23,40 @@ main {
     width: 100%;
     max-width: 600px; /* Largura máxima para o formulário */
     margin: 50px;
-    
 }
 
+/* Estilo dos rótulos */
 label {
     color: rgb(100, 100, 100);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
-    
-input {
+
+/* Estilo dos campos de entrada */
+.input-field {
+    width: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid black;
-    padding: 10px;
-    
+    box-sizing: border-box; /* Garante que padding não adicione mais à largura */
 }
-    
-input:focus {
-    border-color: rgb(58, 58, 228);
+
+.input-date {
+
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box; 
+}
+
+
+/* Foco nos campos de entrada */
+.input-field:focus {
+    border-color: rgb(58, 58, 228); /* Cor azul ao focar */
     border-width: 1.5px;
     outline: none;
-
 }
-
