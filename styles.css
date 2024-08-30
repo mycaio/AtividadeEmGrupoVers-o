@@ -97,3 +97,19 @@ button:active {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+#taxa{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.texto_total{
+    color: gray;
+    font-size: 15px;
+}
