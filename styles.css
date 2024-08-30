@@ -17,7 +17,7 @@ body {
 /* Estiliza o elemento main */
 main {
     background-color: #fff; /* Cor de fundo branca para o formulário */
-    border-radius: 8px; /* Cantos arredondados */
+    border-radius: 9px; /* Cantos arredondados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px;
     margin: 50px;
