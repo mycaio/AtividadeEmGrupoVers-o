@@ -28,6 +28,14 @@
                 <input class="input-field" placeholder="XXX" type="text" pattern="\d*" maxlength="3">
             </div>
         </div>
+        <div class="checkbox-label">
+            <input type="checkbox" id="promo-checkbox" onclick="togglePromoCodeBox()">
+            <label for="promo-checkbox">Tenho um código promocional</label>
+        </div>
+        <div id="promo-code-container">
+            <label for="promo-code">Código Promocional</label> <br>
+            <input type="text" id="promo-code" class="input-field" placeholder="Digite seu código">
+        </div>
         <div class="subtotal">
             <p class="texto_total">Subtotal</p>
             <p>R$98,00</p>
@@ -53,6 +61,18 @@
                 valor = valor.substring(0, 2) + '/' + valor.substring(2, 4);
             }
             input.value = valor;
+        }
+
+        function togglePromoCodeBox() {
+        const promoCodeContainer = document.getElementById('promo-code-container');
+        const promoCheckbox = document.getElementById('promo-checkbox');
+        
+        // Se o checkbox estiver marcado, mostre o campo; caso contrário, oculte-o.
+        if (promoCheckbox.checked) {
+            promoCodeContainer.style.display = 'block';
+        } else {
+            promoCodeContainer.style.display = 'none';
+          }
         }
         </script>
 </body>

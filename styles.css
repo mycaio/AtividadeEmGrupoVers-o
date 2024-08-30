@@ -113,3 +113,28 @@ button:active {
     color: gray;
     font-size: 15px;
 }
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    margin-right: 10px;
+}
+
+#promo-code-container {
+    display: none;
+    margin-top: 10px;
+}
+
+#promo-code {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: border-box;
+}
