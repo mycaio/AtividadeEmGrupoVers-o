@@ -21,7 +21,7 @@
         <div class="flexbox-data_cvv">
             <div>
                 <label>Data de Expiração</label> <br>
-                <input type="date" class="input-field">
+                <input type="text" class="input-field" placeholder="mm / aa" maxlength="5" id="data-expiracao" oninput="formatarDataExpiracao(this)">
             </div>
             <div>
                 <label>CVV</label> <br>
@@ -32,5 +32,15 @@
             <button type="submit">Realizar pagamento</button>
         </div>
     </main>
+    
+    <script>
+        function formatarDataExpiracao(input) {
+            let valor = input.value.replace(/\D/g, ''); // Remove todos os caracteres que não são dígitos
+            if (valor.length >= 2) {
+                valor = valor.substring(0, 2) + '/' + valor.substring(2, 4);
+            }
+            input.value = valor;
+        }
+        </script>
 </body>
 </html>
