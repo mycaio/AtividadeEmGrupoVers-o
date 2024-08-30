@@ -8,4 +8,4 @@ Alunos:
 - Vitor Vital - Desenvolvedor
 
 
-![prototipofinal](imagemprototipo.png)
+![prototipofinal](prototipo.png)
